@@ -1,0 +1,131 @@
+{
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        }
+      ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/econ-development",
+      "destination": "/econ-development/index.html"
+    },
+    {
+      "source": "/econ-development/cards",
+      "destination": "/econ-development/cards/index.html"
+    },
+    {
+      "source": "/econ-development/glossary",
+      "destination": "/econ-development/glossary/index.html"
+    },
+    {
+      "source": "/econ-development/summary",
+      "destination": "/econ-development/summary/index.html"
+    },
+    {
+      "source": "/econ-thought",
+      "destination": "/econ-thought/index.html"
+    },
+    {
+      "source": "/econ-thought/cards",
+      "destination": "/econ-thought/cards/index.html"
+    },
+    {
+      "source": "/econ-thought/glossary",
+      "destination": "/econ-thought/glossary/index.html"
+    },
+    {
+      "source": "/econ-thought/summary",
+      "destination": "/econ-thought/summary/index.html"
+    },
+    {
+      "source": "/econometrics",
+      "destination": "/econometrics/index.html"
+    },
+    {
+      "source": "/econometrics/cards",
+      "destination": "/econometrics/cards/index.html"
+    },
+    {
+      "source": "/econometrics/glossary",
+      "destination": "/econometrics/glossary/index.html"
+    },
+    {
+      "source": "/econometrics/summary",
+      "destination": "/econometrics/summary/index.html"
+    },
+    {
+      "source": "/islamic-econ",
+      "destination": "/islamic-econ/index.html"
+    },
+    {
+      "source": "/islamic-econ/cards",
+      "destination": "/islamic-econ/cards/index.html"
+    },
+    {
+      "source": "/islamic-econ/glossary",
+      "destination": "/islamic-econ/glossary/index.html"
+    },
+    {
+      "source": "/islamic-econ/summary",
+      "destination": "/islamic-econ/summary/index.html"
+    },
+    {
+      "source": "/islamic-economics",
+      "destination": "/islamic-economics/index.html"
+    },
+    {
+      "source": "/labor-econ",
+      "destination": "/labor-econ/index.html"
+    },
+    {
+      "source": "/labor-econ/cards",
+      "destination": "/labor-econ/cards/index.html"
+    },
+    {
+      "source": "/labor-econ/glossary",
+      "destination": "/labor-econ/glossary/index.html"
+    },
+    {
+      "source": "/labor-econ/summary",
+      "destination": "/labor-econ/summary/index.html"
+    },
+    {
+      "source": "/math-econ",
+      "destination": "/math-econ/index.html"
+    },
+    {
+      "source": "/math-econ/cards",
+      "destination": "/math-econ/cards/index.html"
+    },
+    {
+      "source": "/math-econ/glossary",
+      "destination": "/math-econ/glossary/index.html"
+    },
+    {
+      "source": "/math-econ/summary",
+      "destination": "/math-econ/summary/index.html"
+    },
+    {
+      "source": "/review",
+      "destination": "/review/index.html"
+    },
+    {
+      "source": "/search",
+      "destination": "/search/index.html"
+    }
+  ]
+}
