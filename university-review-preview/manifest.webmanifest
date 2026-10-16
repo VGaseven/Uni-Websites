@@ -1,0 +1,16 @@
+{
+  "id": "./",
+  "name": "بطاقات المراجعة",
+  "short_name": "بطاقات المراجعة",
+  "description": "بطاقات للمراجعة والدراسة",
+  "lang": "ar",
+  "dir": "rtl",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f8f5ed",
+  "theme_color": "#f8f5ed",
+  "icons": [
+    { "src": "./assets/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
